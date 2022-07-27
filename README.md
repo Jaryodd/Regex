@@ -32,7 +32,7 @@ Quantifiers set the amount of times a string matches in your expression. In the 
 
 The `+` quantifier means tells the regex the string elements passed before have to match at least one time. Meaning the one "acceptance" criteria we selected in the `[]` have to match.
 
-Also the `{}` quantifiers that are 2 and 6 in this case the first number means the minimum and the 6 means the maximum amount of matches to meet the "acceptance" criteria. If you type `{2}` that sets the value to exactly that number to match the "acceptance" criteria. If you type `{3,}` it sets the minimum value to the number indicated to meet the "acceptance" criteria.
+Also the `{}` quantifiers that are 2 and 6 in this case the 2 is the minimum and the 6 is the maximum amount of matches to meet the "acceptance" criteria. If you type `{2}` that sets the value to exactly that number to match the "acceptance" criteria. If you type `{3,}` it sets the minimum value to the number indicated to meet the "acceptance" criteria.
 
 ### Grouping Constructs
 
